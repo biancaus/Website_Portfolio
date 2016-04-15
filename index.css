@@ -1,0 +1,9 @@
+
+body {
+    background-color: #fff999;
+}
+
+ /* this makes divs visible, take * off to disable */
+ * {
+    outline: blue solid 1px;
+}
