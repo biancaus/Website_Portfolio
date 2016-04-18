@@ -8,7 +8,7 @@ body {
 }
 
  /* this makes divs visible, take * off to disable */
-   {
+    {
     outline: blue solid 1px;
 }
 
@@ -79,17 +79,17 @@ body {
 
 #controls {
 
-        width: 1000px;
+        width: 900px;
         margin-bottom: 10px;
       }
       
       #controls a {
         font-family: sans-serif;
-        border: 1px black double;
+        border: 1px black solid;
         display: inline-block;
         cursor: pointer;
-        margin: 5px;
-        padding: 5px;
+        margin: 1px;
+        padding: 5px 5px 0 5px;
       }
       
       #controls a:hover {
@@ -97,15 +97,5 @@ body {
       }
       
       #image_box {
-        position: relative;
-      }
-      
-      #eye_left, #eye_right {
-        position: absolute;
-        
-      }
-      
-      #mouth {
-        position: absolute;
-        width: 200px;
+    
       }
