@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Bianca Alburo | Works</title>
+    <title>Bianca Alburo | Work</title>
     <link rel="stylesheet" href="work.css" />
 </head>
 
@@ -26,61 +26,32 @@
     <h1>DIGITAL ILLUSTRATIONS</h1>
 </div>
 
+<div id="image_box">
+    <img id="image" src="images/1.jpg" />
+</div>
+
+  
 <div id="controls">
     
-    <a id="eyes_up_btn">move eyes up</a>
+    <a id="d1"><img src="images/1t.jpg" /></a>
     
-    <a id="eyes_down_btn">move eyes down</a>
+    <a id="d2"><img src="images/2t.jpg" /></a>
     
-    <a id="eyes_closer">move eyes closer together</a>
+    <a id="d3"><img src="images/3t.jpg" /></a>
     
-    <a id="eyes_apart">move eyes further apart</a>
+    <a id="d4"><img src="images/4t.jpg" /></a>
     
-    <a id="eyes_hollow">hollow eyes</a>
+    <a id="d5"><img src="images/5t.jpg" /></a>
     
-    <a id="eyes_solid">solid eyes</a>
+    <a id="d6"><img src="images/6t.jpg" /></a>
     
-    <a id="big_eyes">big eyes</a>
-    
-    <a id="small_eyes">small eyes</a>
-    
-    <a id="no_right_eye">no right eye</a>
-    
-    <a id="happy">happy mouth</a>
-    
-    <a id="sad">sad mouth</a>
-    
-    <a id="reset">reset face</a>
-    
-  </div>
-  
-  <div id="face">
-    <img id="eye_left" src="eye_solid.svg" />
-    <img id="eye_right" src="eye_solid.svg" />
-    <img id="mouth" src="mouth_happy.svg" />
-
-
   </div>
   
   <script>
-    // coordinate variables
-    var eye_left_x = 100;
-    var eye_left_y = 100;
-    var eye_right_x = 250;
-    var eye_right_y = 100;
     
-    // set initial positions
-    document.getElementById('eye_left').style.left = eye_left_x + 'px';
-    document.getElementById('eye_left').style.top = eye_left_y + 'px';
-    document.getElementById('eye_right').style.left = eye_right_x + 'px';
-    document.getElementById('eye_right').style.top = eye_right_y + 'px';
-    document.getElementById('mouth').style.width = 0 + 'px';
-
-
     // hollow eyes event listener
-      document.getElementById('eyes_hollow').addEventListener('click', function() {
-        document.getElementById('eye_left').setAttribute('src', 'eye_hollow.svg');
-        document.getElementById('eye_right').setAttribute('src', 'eye_hollow.svg');
+      document.getElementById('d1').addEventListener('click', function() {
+        document.getElementById('image').setAttribute('src', '1.jpg');
       }
     );
       
